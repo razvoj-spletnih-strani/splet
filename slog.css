@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	font-size: 1.1em;
+	color: #212624;
+}
+
+h2{
+	font-size: 2.4em;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+nav{
+	background-color: #0486db;
+	height: 60px;
+	line-height: 60px;
+	letter-spacing: 1.3px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li:first-child{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 700;
+	color: white;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+nav ul li a{
+	color: white;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: #0486db;
+	border-bottom: 3px solid #0486db;
+}
+
+#glava, #izpostavljeno{
+	width: 100%;
+}
+
+#izpostavljeno > div, section{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+#izpostavljeno > div{
+	display: flex;
+}
+
+#izpostavljeno{
+	background-color: #f2f6dc;
+	border-bottom: 3px solid #d4dca9;
+}
+
+#izpostavljeno, section, footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#izpostavljeno img{
+	width: 100%;
+}
+
+#izpostavljeno figure{
+	margin: 0;
+}
+
+#izpostavljeno .slika, #izpostavljeno .vsebina{
+	display: inline-block;
+	width: 50%;
+}
+
+#izpostavljeno .vsebina{
+	padding-left: 20px;
+}
+
+#izpostavljeno .vsebina p{
+	font-size: 1.4em;
+}
+
+section{
+	width: 1200px;
+}
+
+section ol{
+	list-style-type: none;
+	padding: 0;
+}
+
+section ol li{
+	margin-top: 50px;
+}
+
+time{
+	font-size: 0.9em;
+	color: #888;
+}
+
+footer{
+	background-color: #05acd3;
+	font-size: 0.9em;
+	text-align: center;
+	color: white;
+}
